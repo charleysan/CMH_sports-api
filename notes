@@ -1,0 +1,27 @@
+// {
+//   "jwt": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyfQ.Vmcv0BhO6jwBk9ff2LDKWK52qHh1fUY7JaSSQxJbayA",
+//   "user": {
+//     "id": 2,
+//     "name": "Patrick",
+//     "email": "test2@test.com",
+//     "password_digest": "$2a$12$WXG0l5Rxa/et5mj4XjS0yeN4lC709H3iBJz3lvtmI1pkItcgcKG8C",
+//     "role": null,
+//     "created_at": "2025-03-07T11:27:01.532Z",
+//     "updated_at": "2025-03-07T11:27:01.532Z"
+
+
+//     {
+    //   "jwt": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.1d-1mVeYRzplU_pOZidVy_kItGCf2bABsYcp6Ns4Onc",
+    //   "user": {
+    //     "id": 1,
+    //     "name": "Charles",
+    //     "email": "test@test.com",
+    //     "password_digest": "$2a$12$f5mTRrGewyazMnGmXHElkejv85f86lW6mDZRi2T/Q3eQO.wvwZvPe",
+    //     "role": "admin",
+    //     "created_at": "2025-03-07T11:26:34.306Z",
+    //     "updated_at": "2025-03-07T11:26:34.306Z"
+    //   }
+    // }
+
+
+
