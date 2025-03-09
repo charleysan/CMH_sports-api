@@ -2,6 +2,7 @@ class User < ApplicationRecord
   has_secure_password
   validates :email, presence:true, uniqueness:true
   validates :role, inclusion: { in: %w[user admin] }
+  has_many :teams
 
   def admin?
     role == 'admin'
