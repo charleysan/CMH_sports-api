@@ -1,6 +1,7 @@
-class Ap1::V1::TeamsController < ApplicationController
+class Api::V1::TeamsController < ApplicationController
   def index
     teams = Team.all
     render json: teams
+  end
 end
  

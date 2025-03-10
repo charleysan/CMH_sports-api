@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
+  post '/login'=> 'sessions#create'
+  post '/users'=>'users#create'
+
   namespace :api do
-    namesapce :v1 do
-    resources :: Team
+    namespace :v1 do
+    resources :teams
     end
   end
 end
-post '/login'=> 'sessions#create'
-post '/users'=>'users#create'
